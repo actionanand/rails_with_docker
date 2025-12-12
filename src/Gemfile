@@ -8,15 +8,17 @@ gem "rails", "~> 7.1.0"
 
 # Database
 gem "pg", "~> 1.5"
-gem "activerecord-postgresql-adapter"
 
 # Web server
 gem "puma", "~> 6.0"
 
 # Asset pipeline
 gem "sprockets-rails"
-gem "sassc-rails"
-gem "webpacker", "~> 6.0"
+gem "importmap-rails"
+gem "turbo-rails"
+gem "stimulus-rails"
+gem "cssbundling-rails"
+gem "jsbundling-rails"
 
 # Views and forms
 gem "jbuilder", "~> 2.7"
